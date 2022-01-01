@@ -12,9 +12,11 @@
        01.	Accurate presence detection upon arrival.
        02.	face recognition to match the faces with the existing database.
        03.	Owner is alerted via Telegram with a 30-second video of the intruders. 
-       04.	User performs unique hand gestures to get the login page.
-       05.	Two-factor authentication via Telegram.
-       06.	Access Granted
+       04.  Owner remotely controls the system.
+       05.  Live camera surveillance.
+       06.	User performs unique hand gestures to get the login page.
+       07.	Two-factor authentication via Telegram.
+       08.	Access Granted.
 
 ![Hardware Diagram (1)](https://user-images.githubusercontent.com/75357109/147855576-f17f645d-e4e9-4b6f-967f-9181152a6dc0.jpg)
 
