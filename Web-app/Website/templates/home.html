@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+
+{% block content %}
+
+
+<div class="pos">Welcome, Pasan!</div>
+
+
+<ul class="list-group list-group-flush" id="notes">
+    {% for reminder in user.reminders %}
+    <li class="list-group-item">{{ reminder.data }}</li>
+   {% endfor %}
+</ul>
+
+<form method="POST">
+    <textarea style="position: fixed;left: 1700px; top:70px; width:200px; height:750px;" name="reminder" id="note" class="form-control"></textarea>
+    <div>
+       <button type="submit" class="btn btn-primary" id="right-panel">Add Reminder</button>
+    </div>
+</form>
+
+
+<h4 class="tt1"> Current Temperature: {{ c_temp }}29.9 &deg;C</h4>
+<h4 class="tt2"> Predicted Temperature: {{ p_temp }}28.9 &deg;C</h4>
+<h4 class="tt3";> Current Humidity: {{ c_hum }}89.4 RH</h4>
+<h4 class="tt4";> Predicted Humidity: {{ p_hum }}90.1 RH</h4>
+<p class="tt5"><button><a href="/dhtpin/get" style="color: teal"> Update </a></button></p>
+
+
+<div class="cambutton">
+  <a href="/camera/on" role="button" class="btn btn-info btn-lg">Open Camera</a>
+</div>
+
+<div class="controlbox"></div>
+<h4 class="controlboxtitle">Control Panel</h4>
+
+<div class="controls">
+    <a href="/pin2/on" role="button" class="btn btn-success btn-lg">Unlock</a>
+    <a href="/pin2/off" role="button" class="btn btn-danger btn-lg">Lock</a>
+</div>
+
+
+{% endblock  %}
