@@ -22,7 +22,7 @@
 
 #### USER Interface Screenshots
 
-<img src="https://user-images.githubusercontent.com/75357109/147855678-00df40d8-eb65-481e-a77b-3579aa8f2dd3.png" align="left" width="450">   <img src="https://user-images.githubusercontent.com/75357109/147855702-048be9ea-2e17-466e-9465-1e1d62e91464.png" align="right" width="350">
+<img src="https://user-images.githubusercontent.com/75357109/147855678-00df40d8-eb65-481e-a77b-3579aa8f2dd3.png" align="left" width="400">   <img src="https://user-images.githubusercontent.com/75357109/147855702-048be9ea-2e17-466e-9465-1e1d62e91464.png" align="right" width="350">
 
   
   
